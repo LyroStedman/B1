@@ -9,3 +9,11 @@ Pingouin(String nom, Sexe sexe, String couleur) {
 	this.sexe = sexe;
 	this.couleur = couleur;
 }
+
+String gteCOuleur() {
+return couleur;
+}
+
+String etSex() {
+return sexe;
+}
