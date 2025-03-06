@@ -17,3 +17,8 @@ return couleur;
 String getSexe() {
 return sexe;
 }
+
+boolean isMale() {
+return sexe == Sexe.MALE
+}
+}
