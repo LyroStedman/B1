@@ -18,7 +18,7 @@ class Enclos {
 	List<Pingouins> getMale() {
 		List<Pingouins> males = new ArrayList();
 		for(Pingouin pingouin : pingouins) {
-			if (pingouin.getSexe == Sexe.FEMELLE) {
+			if (pingouin.getSexe == Sexe.MALE) {
 				males.add(pingouin);
 			}
 		}
