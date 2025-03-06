@@ -9,6 +9,10 @@ class Enclos {
 		pingouins.add(pingouin);
 	}
 
+	void deletePingouin(Pingouin pingouin) {
+		pingouins.remove(pingouin);
+	}
+
 	int countPingouins() {
 		return pingouins.size();
 	}
