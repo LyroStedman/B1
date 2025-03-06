@@ -18,3 +18,8 @@ class Pingouin {
 		return sexe;
 	}
 }
+
+boolean isMale() {
+return sexe == Sexe.MALE
+}
+}
