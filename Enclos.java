@@ -9,11 +9,21 @@ class Enclos {
 		pingouins.add(pingouin);
 	}
 
-	void deletePingouin(Pingouin pingouin) {
+	Pingouin(Pingouin pingouin) {
 		pingouins.remove(pingouin);
 	}
 
 	int countPingouins() {
 		return pingouins.size();
+
+	List<Pingouins> getMale() {
+		List<Pingouins> males = new ArrayList();
+		for(Pingouin pingouin : pingouins) {
+			if (pingouin.getSexe == Sexe.MALE) {
+				males.add(pingouin);
+			}
+		}
+		return males;
+
 	}
 }
