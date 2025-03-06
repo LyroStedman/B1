@@ -1,24 +1,24 @@
 class Pingouin {
 
-String nom;
-Sexe sexe;
-String couleur;
+	String nom;
+	Sexe sexe;
+	String couleur;
 
-Pingouin(String nom, Sexe sexe, String couleur) {
-	this.nom = nom;
-	this.sexe = sexe;
-	this.couleur = couleur;
-}
+	Pingouin(String nom, Sexe sexe, String couleur) {
+		this.nom = nom;
+		this.sexe = sexe;
+		this.couleur = couleur;
+	}
 
-String getCouleur() {
-return couleur;
-}
+	String getCouleur() {
+	return couleur;
+	}
 
-String getSexe() {
-return sexe;
-}
+	String getSexe() {
+	return sexe;
+	}
 
-boolean isMale() {
-return sexe == Sexe.MALE
-}
+	boolean isMale() {
+		return sexe == Sexe.MALE
+	}
 }
