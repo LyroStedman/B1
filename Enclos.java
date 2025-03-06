@@ -15,5 +15,13 @@ class Enclos {
 
 	int countPingouins() {
 		return pingouins.size();
+	List<Pingouins> getMale() {
+		List<Pingouins> males = new ArrayList();
+		for(Pingouin pingouin : pingouins) {
+			if (pingouin.getSexe == Sexe.FEMELLE) {
+				males.add(pingouin);
+			}
+		}
+		return males;
 	}
 }
