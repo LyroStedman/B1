@@ -10,4 +10,9 @@ class Enclos {
 	void addPingouin(Pingouin pingouin) {
 		pingouins.add(pingouin);
 	}
+
+	void deletePingouin(Pingouin pingouin) {
+		pingouins.remove(pingouin);
+	}
+
 }
