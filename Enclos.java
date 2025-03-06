@@ -17,5 +17,12 @@ class Enclos {
 			}
 		}
 		return males;
+		
+	void deletePingouin(Pingouin pingouin) {
+		pingouins.remove(pingouin);
+	}
+
+	int countPingouins() {
+		return pingouins.size();
 	}
 }
