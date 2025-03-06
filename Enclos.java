@@ -1,11 +1,15 @@
 class Enclos {
-	List<Pingouins> pingouins = new ArrayList();
+	final List<Pingouins> pingouins = new ArrayList();
 
-	Enclos(List<Pingouins> pingouins) {
-		this.pingouins.addAll(pingouins);
+	private Enclos() {
 	}
 
-	void addPingouin(Pingouin pingouin) {
+	static Enclos createEnclos() {
+		return new Enclos()
+	}
+
+	Enclos addPingouin(Pingouin pingouin) {
 		pingouins.add(pingouin);
+		return this;
 	}
 }
