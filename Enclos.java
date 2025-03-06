@@ -4,4 +4,8 @@ class Enclos {
 	Enclos(List<Pingouins> pingouins) {
 		this.pingouins.addAll(pingouins);
 	}
+
+	int countPingouins() {
+		return pingouins.size();
+	}
 }
