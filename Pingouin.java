@@ -10,10 +10,10 @@ Pingouin(String nom, Sexe sexe, String couleur) {
 	this.couleur = couleur;
 }
 
-String gteCOuleur() {
+String getCouleur() {
 return couleur;
 }
 
-String etSex() {
+String getSexe() {
 return sexe;
 }
