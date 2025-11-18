@@ -20,7 +20,4 @@ Pingouin(String nom, Sexe sexe, String couleur) {
 		return couleur;
 	}
 
-	Sexe getSexe() {
-		return sexe;
-	}
-}
+	
