@@ -1,5 +1,6 @@
 class Pingouin {
 
+<<<<<<< HEAD
 String nom;
 String couleur;
 
@@ -7,11 +8,17 @@ Pingouin(String nom, String couleur) {
 	this.nom = nom;
 	this.couleur = couleur;
 }
+=======
+	String nom;
+	Couleur couleur;
 
-String getCouleur() {
-return couleur;
-}
+	Pingouin(String nom, Couleur couleur) {
+		this.nom = nom;
+		this.couleur = couleur;
+	}
+>>>>>>> 3061410 (couleur)
 
-String getSexe() {
-return sexe;
+	Couleur getCouleur() {
+		return couleur;
+	}
 }
